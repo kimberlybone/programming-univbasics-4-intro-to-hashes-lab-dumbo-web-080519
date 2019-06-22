@@ -33,9 +33,9 @@ end
 
 def read_from_hash(hash, key)
   if hash[key]
-    puts hash[key]
+    hash[key]
   else 
-    puts "nil"
+    "nil"
   end
 end
 
@@ -43,9 +43,9 @@ end
 def update_counting_hash(hash, key)
   if hash[key] 
     hash[key] += 1 
-    puts hash
+    hash
     else 
       hash[key] = 1 
-      puts hash
+      hash
     end 
 end
